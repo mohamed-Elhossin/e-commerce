@@ -25,7 +25,10 @@ h2 {
 .navbar {
     background: linear-gradient(to right, #111 70%, #eee);
 }
-
+.navbar .navbar-toggler span{
+  background-color: red;
+  color: red;
+}
 .navbar ul li a {
     color: wheat;
     font-family: cursive;
